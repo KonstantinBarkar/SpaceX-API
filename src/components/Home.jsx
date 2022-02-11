@@ -5,12 +5,12 @@ const Home = () => {
   return (
     <div>
       <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Home <span class="sr-only"></span>
+        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Home <span className="sr-only"></span>
                 </a>
               </li>
             </ul>
