@@ -1,7 +1,8 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
-const Home = () => {
+const Layout = () => {
   return (
     <div>
       <header>
@@ -17,8 +18,9 @@ const Home = () => {
           </div>
         </nav>
       </header>
+      <Outlet />
     </div>
   );
 };
 
-export default Home;
+export default Layout;
